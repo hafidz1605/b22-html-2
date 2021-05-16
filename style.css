@@ -1,0 +1,75 @@
+.topnav {
+    background-image: linear-gradient(#457206, rgb(147, 196, 75));
+    overflow: auto;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #0b8357;
+  }
+  
+  .topnav a.active {
+    background-color: #0b8357;
+    color: white;
+  }
+  h1{color:grey}
+  .main{margin-left: 30px;}
+  .label{
+    
+  }
+
+  .tags{
+      list-style: none;
+      
+}
+  .tags li{
+    font-size: small;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 7px 7px;
+    display: inline-block;
+    background-color: rgb(186, 218, 86);
+  }
+  .article{
+    position: relative;
+    overflow: hidden;
+    max-width: 600px;
+    
+    
+  }
+  .article img{ 
+    float: left;
+    margin-right: 15px;
+    width:200px;
+    height:150px;
+  }
+
+  .article .readMore{
+    color:red;  
+    float: right;
+    text-decoration: none;
+    
+  }
+  #read{
+    display: none;
+  }
+  #readMoreJS{
+    color:red;  
+    float: right;
+    background: none;
+    border: none; 
+    cursor: pointer;
+  }
+
+  
