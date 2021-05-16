@@ -10,7 +10,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
   }
   
 
@@ -18,7 +18,7 @@
     background-color: #0b8357;
   }
   
-  .topnav a.active {
+  .topnav a.current {
     background-color: #0b8357;
     color: white;
   }
@@ -71,5 +71,3 @@
     border: none; 
     cursor: pointer;
   }
-
-  
